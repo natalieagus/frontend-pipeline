@@ -1,13 +1,13 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "./assets/vite.svg";
-import { Link, Route, Routes } from "react-router-dom";
-import Home from "./components/Home";
-import Converter from "./components/Converter";
-import "./App.css";
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from './assets/vite.svg'
+import { Link, Route, Routes } from 'react-router-dom'
+import Home from './components/Home'
+import Converter from './components/Converter'
+import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(0)
 
   return (
     <div className="main-app">
@@ -42,7 +42,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
