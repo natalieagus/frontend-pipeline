@@ -62,17 +62,20 @@
   text-decoration: none;
 }
 
-.number-converter {
+.number-converter,
+.login-page {
   margin: 1rem 4rem;
   text-align: left;
 }
 
-.number-converter label {
+.number-converter label,
+.login-page label {
   display: block;
   margin-bottom: 1rem;
 }
 
-.number-converter input {
+.number-converter input,
+.login-page input {
   display: block;
   margin-top: 0.5rem;
 }
