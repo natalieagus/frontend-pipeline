@@ -9,14 +9,14 @@ function Converter() {
     (baseName: string, base: number) =>
     (e: React.ChangeEvent<HTMLInputElement>) => {
       if (e.target.value === "") {
-        setValue((oldValue) => undefined);
-        setOrigin((oldOrigin) => undefined);
+        setValue(undefined);
+        setOrigin(undefined);
       } else {
-        setValue((oldValue) => {
+        setValue((prev) => {
           const newValue = parseInt(e.target.value, base);
-          return isNaN(newValue) ? oldValue : newValue;
+          return isNaN(newValue) ? prev : newValue;
         });
-        setOrigin((oldOrigin) => baseName);
+        setOrigin(baseName);
       }
     };
 
