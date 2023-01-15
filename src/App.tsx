@@ -13,6 +13,7 @@ function App() {
   const tempCallback = (input: any) => {
     console.log(input)
   }
+
   return (
     <div className='main-app'>
       <div>
@@ -20,7 +21,9 @@ function App() {
           <div className='menu'>
             <Link to='/'>Home</Link>
             <Link to='/converter'>Converter</Link>
-            <Link to='/login'>Login</Link>
+            <Link to='/login' id='login'>
+              Login
+            </Link>
           </div>
         </nav>
         <Routes>

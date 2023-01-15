@@ -1,6 +1,6 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react'
 
-import Converter from './Converter'
+import Converter from '../components/Converter'
 
 export default {
   title: 'Converter/AppComponents',
