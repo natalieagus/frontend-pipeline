@@ -14,7 +14,6 @@ export default {
       '<rootDir>/__mocks__/mockFile.js',
     '\\.(css|less|scss|sass)$': 'identity-obj-proxy',
   },
-  testMatch: ['**/src/**/?(*.)+(spec|test).[jt]s?(x)'],
 
   testEnvironment: 'jest-environment-jsdom',
   // Runs special logic, such as cleaning up components
