@@ -21,7 +21,7 @@ function Converter() {
     };
 
   return (
-    <div className="Converter">
+    <div className="number-converter">
       <label>
         Decimal:
         <input
