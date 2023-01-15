@@ -40,7 +40,7 @@ jobs:
         timeout-minutes: 10
         with:
           config-file: cypress.config.ts
-          build: npm run build
+          build: npm run build --legacy-peer-deps
           start: npm run preview
           # wait-on: 'http://127.0.0.1:3000'
           browser: chrome
