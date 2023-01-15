@@ -3,3 +3,5 @@ dist
 jest.config.js
 vite.config.ts
 __mocks__/
+cypress/
+cypress.config.ts

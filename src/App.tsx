@@ -17,7 +17,7 @@ function App() {
   return (
     <div className='main-app'>
       <div>
-        <nav>
+        <nav id='navbar'>
           <div className='menu'>
             <Link to='/'>Home</Link>
             <Link to='/converter'>Converter</Link>
