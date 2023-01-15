@@ -39,8 +39,9 @@ jobs:
         uses: cypress-io/github-action@v5.0.0
         timeout-minutes: 10
         with:
+          install: false
           config-file: cypress.config.ts
-          build: npm run build --force
+          build: npm run build
           start: npm run preview
           # wait-on: 'http://127.0.0.1:3000'
           browser: chrome
